@@ -3,7 +3,7 @@
 #include <string.h>
 #include "Board.h"
 
-char changePlayer(char player) {
+char changePlayer(char player) {//testowy komentarz
 
 	return (player == 'X') ? 'O' : 'X';
 }
